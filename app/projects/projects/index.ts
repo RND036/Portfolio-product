@@ -12,7 +12,7 @@ export const projects = [
     title: "Hardware Store App",
     des: "Built a feature-rich Flutter shopping app with custom API auth, offline support, geolocation, QR scanning, battery tracking, and responsive UI with dark mode.",
     img: "/hardwarestore.png",
-    iconLists: ["/Flutter.svg", "/Dart.svg", "/MongoDB.svg", "/MYSQL.svg","/Postman.svg"],
+    iconLists: ["/Flutter.svg", "/Dart.svg", "/MongoDB.svg", "/MySQL.svg","/Postman.svg"],
     link: "https://github.com/RND036/HardwareStoreApp-Flutter.git",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     title: "Pet Care management System",
     des: "Built a full-featured web platform for pet owners and vets using Laravel and Jetstream, featuring vaccination tracking, appointment booking, emergency QR access, real-time chat (via Chatify), and an integrated pet store. Implemented role-based access for admins, vets, and users, with inventory management and analytics support.",
     img: "/petcare.png",
-    iconLists: ["/laravel.svg", "/MYSQL.svg", "/Livewire.svg", "/jira.svg", "/slack.svg"],
+    iconLists: ["/Laravel.svg", "/MySQL.svg", "/Livewire.svg", "/Jira.svg", "/Slack.svg"],
     link: "https://github.com/RND036/PetCare_Web.git",
   },
    {
@@ -36,7 +36,7 @@ export const projects = [
     title: "Spam Classifier",
     des: "Developed a web-based spam email classifier using Django and machine learning. Implemented NLP techniques like punctuation removal, stopword filtering, and stemming, then converted text data using CountVectorizer. Trained a RandomForestClassifier to detect spam and integrated it into a user-friendly web interface for real-time predictions.",
     img: "/emailclassifier.png",
-    iconLists: ["/python.svg", "/django.svg", "/Numpy.svg", "/Pandas.svg", "/scikit-learn.svg"],
+    iconLists: ["/Python.svg", "/Django.svg", "/NumPy.svg", "/Pandas.svg", "/scikit-learn.svg"],
     link: "https://github.com/RND036/Spamclassifier.git",
   },
    {
@@ -60,7 +60,7 @@ export const projects = [
     title: "Customer Segmentation",
     des: "This project performs customer segmentation using the K-Means clustering algorithm, an unsupervised machine learning technique. It helps businesses categorize customers based on features like age, income, and spending behavior for more personalized marketing strategies and improved customer experience.",
     img: "/customersegementation.png",
-    iconLists: ["/pandas.svg", "/Numpy.svg", "/Matplotlib.svg", "/Scikit-learn.svg", "/Seaborn.svg"],
+    iconLists: ["/Pandas.svg", "/NumPy.svg", "/Matplotlib.svg", "/scikit-learn.svg", "/seaborn.svg"],
     link: "https://github.com/RND036/Customersegmentation.git",
   },
     {
@@ -84,7 +84,7 @@ export const projects = [
     title: "Stock Management System",
     des: "This C# Windows Forms application leverages Object-Oriented Programming and SQL integration to deliver an efficient stock management system. Designed with a secure login for authorized administrators, it offers a user-friendly interface with features like item addition, removal, and quantity updates. The system includes a detailed stock overview and a transaction log to ensure transparency and traceability. Combining the power of C# and SQL, its a robust solution for streamlined, secure, and effective inventory management.",
     img: "/stockmanagemnt.png",
-    iconLists: ["/Csharp.svg", "/MYSQL.svg"],
+    iconLists: ["/Csharp.svg", "/MySQL.svg"],
     link: "https://github.com/RND036/Customersegmentation.git",
   },
     {
@@ -92,7 +92,7 @@ export const projects = [
     title: "Travel Website",
     des: "Developed a responsive travel website using React, featuring dynamic destination listings, interactive user interface, and seamless navigation. Integrated modern design principles to enhance user experience and provide an engaging platform for exploring travel packages and destinations",
     img: "/travel.png",
-    iconLists: ["/re.svg", "/Bootstrap.svg", "/Css3.svg"],
+    iconLists: ["/re.svg", "/Bootstrap.svg", "/CSS3.svg"],
     link: "https://indotravitravels.netlify.app",
   },
 ];

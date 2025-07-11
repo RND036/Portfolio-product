@@ -4,7 +4,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Clients from "@/components/Clients";
 import { navItems } from "@/data";
-import Experience from "@/components/Experience";
+// import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 
 import AboutMe from "@/components/AboutMe";
@@ -22,7 +22,7 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <Clients/>
-        <Experience/>
+        {/* <Experience/> */}
         <Footer/>
        
       </div>

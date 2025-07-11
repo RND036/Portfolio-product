@@ -2,6 +2,7 @@ import React from 'react'
 import { LampDemo } from './ui/lamp'
 import MagicButton from './ui/MagicButton'
 import { FaFileAlt } from "react-icons/fa";
+import Image from 'next/image';
 
 const AboutMe = () => {
   return (
@@ -12,7 +13,7 @@ const AboutMe = () => {
       <div>
         
         <p className="text-lg md:text-xl leading-relaxed text-gray-300 dark:text-gray-300 font-light tracking-wide">
-          <img src="/exp1.svg" className='mx-auto block p-4' />
+          <Image src="/exp1.svg" className='mx-auto block p-4' alt={'image'} width={100} height={100}/>
           I am a <span className="font-semibold text-primary">highly motivated Software Engineering undergraduate</span> at Staffordshire University with a strong passion for 
           <span> AI, machine learning,</span> and 
           <span > full-stack development</span>. I enjoy building practical software solutions that solve real-world problems,

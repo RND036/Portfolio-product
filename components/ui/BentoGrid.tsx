@@ -30,6 +30,7 @@ import {
   SiMysql,
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import Image from "next/image";
 
 // Technologies from your CV
 const techIcons = [
@@ -116,9 +117,11 @@ export const BentoGridItem = ({
         <div className={`${id === 6 && 'flex justify-center'} h-full`}>
             <div className="w-full h-full absolute">
                 { img && (
-                    <img
+                    <Image
                       src={img }
                       alt={img}
+                      height={100}
+                      width={100}
                       className={cn(imgClassName,'object-cover,object-center')}
                     />  
                 )}
@@ -126,7 +129,9 @@ export const BentoGridItem = ({
             </div>
             <div className={`absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
                 { spareImg && (
-                    <img
+                    <Image
+                    height={100}
+                      width={100}
                       src={spareImg }
                       alt={spareImg}
                       className={cn(imgClassName,'object-cover,object-center w-full h-full')}
@@ -150,7 +155,7 @@ export const BentoGridItem = ({
                 {techIcons.map(({ name, icon }) => (
                   <div key={name} className="relative group">
                     <span
-                      className="text-2xl lg:text-3xl p-2 rounded-lg bg-[#10132E] text-cyan-300 hover:scale-110 transition-transform cursor-pointer"
+                      className="text-2xl lg:text-3xl p-2 rounded-lg  text-cyan-300 hover:scale-110 transition-transform cursor-pointer"
                       aria-label={name}
                     >
                       {icon}
